@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Campus Notifications</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>
+      Amrita Mysuru Campus Notifications
+    </h1>
+
+    <nav>
+
+      <a href="index.html">
+        All Notifications
+      </a>
+
+      <a href="priority.html">
+        Priority Inbox
+      </a>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section id="controls">
+
+      <select id="filter">
+
+        <option value="all">
+          All Notifications
+        </option>
+
+        <option value="Placement">
+          Placement
+        </option>
+
+        <option value="Result">
+          Result
+        </option>
+
+        <option value="Event">
+          Event
+        </option>
+
+      </select>
+
+    </section>
+
+    <div id="loading">
+      Loading notifications...
+    </div>
+
+    <div id="error"></div>
+
+    <section id="notification-list"></section>
+
+    <div id="pagination">
+
+      <button id="prev-btn">
+        Previous
+      </button>
+
+      <span id="page-number">
+        Page 1
+      </span>
+
+      <button id="next-btn">
+        Next
+      </button>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <p>
+      © 2026 Notification System
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
